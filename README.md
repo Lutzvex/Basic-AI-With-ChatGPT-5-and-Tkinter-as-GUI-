@@ -73,18 +73,6 @@ The GUI seamlessly integrates with your existing voice assistant features:
 - Adjust voice rate and volume in `config.py`
 - Change voice selection in `voice_bridge.py`
 
-## 📁 File Structure
-
-```
-├── ai_chatbot_gui.py      # Main GUI application
-├── run_chatbot.py         # Launcher script
-├── config.py             # Configuration settings
-├── voice_bridge.py       # Voice assistant integration
-├── requirements.txt      # Dependencies
-├── README.md            # This file
-└── .env                 # API keys (create this)
-```
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
