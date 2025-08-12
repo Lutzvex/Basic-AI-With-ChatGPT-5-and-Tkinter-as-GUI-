@@ -41,7 +41,7 @@ A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your
 
 ### Image Generation
 - Type "generate image: [your description]" in the chat
-- Or use the dedicated image generator in the sidebar
+
 
 ## 🔗 Integration with Existing Voice Assistant
 
@@ -61,14 +61,14 @@ The GUI seamlessly integrates with your existing voice assistant features:
 
 2. **Voice recognition not working**:
    - Check microphone permissions
-   - Ensure PyAudio is installed correctly
+   - Ensure Elevenlabs and Elevenlabs API is installed correctly
 
 3. **API errors**:
    - Verify your OpenAI API key in `.env`
    - Check internet connection
 
 4. **GUI not displaying**:
-   - Ensure PyQt5 is properly installed
+   - Ensure Tkinter is properly installed
 
 ## 🔄 Updating
 
