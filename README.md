@@ -8,13 +8,11 @@ A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your
 - **GPT-5 Integration**: Real-time chat with GPT-5 API
 - **DALL-E 3 Image Generation**: Generate images directly from text prompts
 - **Voice Commands**: Integrated voice recognition and speech synthesis
-- **Chat History**: Export and manage conversation history
-- **Voice Assistant Bridge**: Seamlessly connects with your existing voice assistant
 
 ## 📋 Requirements
 
 - Python 3.7+
-- PyQt5
+- Tkinter
 - OpenAI Python client
 - Additional packages listed in `requirements.txt`
 
@@ -44,11 +42,6 @@ A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your
 ### Image Generation
 - Type "generate image: [your description]" in the chat
 - Or use the dedicated image generator in the sidebar
-
-### Voice Commands
-- **"wake up"** - Activate voice recognition
-- **"generate image: [description]"** - Generate images
-- **"clear chat"** - Clear conversation history
 
 ## 🔗 Integration with Existing Voice Assistant
 
