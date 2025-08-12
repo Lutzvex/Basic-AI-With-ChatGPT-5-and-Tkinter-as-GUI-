@@ -1,6 +1,6 @@
 # Keyshia AI - Advanced Chatbot GUI
 
-A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your existing voice assistant features.
+A modern Tkinter-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your existing voice assistant features.
 
 ## 🚀 Features
 
