@@ -32,7 +32,7 @@ A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your
 
 4. **Run the application**:
    ```bash
-   python run_chatbot.py
+   python run_main.py
    ```
 
 ## 🎯 Usage
@@ -50,10 +50,6 @@ A modern PyQt5-based AI chatbot GUI that integrates GPT-5 and DALL-E 3 with your
 - **"generate image: [description]"** - Generate images
 - **"clear chat"** - Clear conversation history
 
-### File Sharing
-- Click the 📎 button to attach files
-- Drag and drop files directly into the chat area
-
 ## 🔗 Integration with Existing Voice Assistant
 
 The GUI seamlessly integrates with your existing voice assistant features:
@@ -62,16 +58,6 @@ The GUI seamlessly integrates with your existing voice assistant features:
 2. **Text-to-Speech**: Uses the same pyttsx3 engine
 3. **Commands**: All existing voice commands work through the GUI
 4. **Features**: Camera, music, web browsing, etc. are accessible via GUI
-
-## 🎨 Customization
-
-### Themes
-- Dark theme is enabled by default
-- Modify `config.py` to change colors and styling
-
-### Voice Settings
-- Adjust voice rate and volume in `config.py`
-- Change voice selection in `voice_bridge.py`
 
 ## 🐛 Troubleshooting
 
@@ -90,7 +76,6 @@ The GUI seamlessly integrates with your existing voice assistant features:
 
 4. **GUI not displaying**:
    - Ensure PyQt5 is properly installed
-   - Try running with `python -m ai_chatbot_gui`
 
 ## 🔄 Updating
 
