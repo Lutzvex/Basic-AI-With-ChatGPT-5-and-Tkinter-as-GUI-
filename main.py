@@ -529,7 +529,7 @@ class VoiceAssistantGUI(tk.Tk):
                 )
             }
             response = openai.ChatCompletion.create(
-                model="gpt-4o", # Ensure you have access to GPT-4o or gpt-5 (optional if you want use gpt-5 but here I'am just using gpt-4o)
+                model="gpt-5", # Ensure you have access to gpt-5 
                 messages=[
                     system_message,
                     {"role": "user", "content": prompt}
@@ -554,4 +554,5 @@ class VoiceAssistantGUI(tk.Tk):
 
 if __name__ == "__main__":
     app = VoiceAssistantGUI()
+
     app.mainloop()
